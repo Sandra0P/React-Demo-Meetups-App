@@ -14,11 +14,11 @@ Back-end - implemented with Firebase
    * useRef - For saving data from input form. Instead of logging each key in the input, useRef enables us to save the data only when the Submit button is clicked
     
 Folders:   
-meetups folder - storeds all meetup-related code
-layout folder - stores Layout and MainNavigation component
-pages folder - stores code for three main "pages" in project
-ui folder - reusable code for UI purposes. Contains a "card" wrapper which adds card-like effect to various components by adding a box shadow
-store folder - for globally relevant data, so contains the favorites data which is saved and acccess with Context hook. 
+* meetups folder - storeds all meetup-related code
+* layout folder - stores Layout and MainNavigation component
+* pages folder - stores code for three main "pages" in project
+* ui folder - reusable code for UI purposes. Contains a "card" wrapper which adds card-like effect to various components by adding a box shadow
+* store folder - for globally relevant data, so contains the favorites data which is saved and acccess with Context hook. 
     
     
 A kind reminder: React requires Capitalized component ("function") names
